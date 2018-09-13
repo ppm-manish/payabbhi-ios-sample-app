@@ -1,8 +1,8 @@
 # Payabbhi iOS Sample App
 
-This is a reference app for enabling Payments acceptance in your iOS App using [Payabbhi iOS SDK](https://payabbhi.com/docs/mobile-ios/).
+This is a reference app for enabling Payments acceptance in your iOS App using [Payabbhi iOS SDK](https://payabbhi.com/docs/mobile-checkout/ios).
 
-For Integration guide, refer to [Mobile Checkout - iOS](https://payabbhi.com/docs/mobile-ios).
+For Integration guide, refer to [Mobile Checkout - iOS](https://payabbhi.com/docs/mobile-checkout/ios).
 
 ## Specifications
 
