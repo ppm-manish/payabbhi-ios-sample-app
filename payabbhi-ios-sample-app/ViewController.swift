@@ -49,9 +49,9 @@ class ViewController: UIViewController, PaymentCallback {
         self.amount = Float(options["amount"] as! Int)/Float(100)
 
         payBtntext.backgroundColor = UIColor(red: CGFloat(72.0/255.0), green: CGFloat(62.0/255.0), blue: CGFloat(119.0/255.0), alpha: 1.0)
-        payBtntext.setTitleColor(UIColor(red: CGFloat(44.0/255.0), green: CGFloat(228.0/255.0), blue: CGFloat(115.0/255.0), alpha: 1.0), for: UIControlState.normal)
+        payBtntext.setTitleColor(UIColor(red: CGFloat(44.0/255.0), green: CGFloat(228.0/255.0), blue: CGFloat(115.0/255.0), alpha: 1.0), for: UIControl.State.normal)
         payBtntext.layer.cornerRadius = 25
-        payBtntext.setTitle(String(format: "PAY ₹%.2f", self.amount), for: UIControlState.normal)
+        payBtntext.setTitle(String(format: "PAY ₹%.2f", self.amount), for: UIControl.State.normal)
 
     }
 
@@ -91,8 +91,8 @@ class ViewController: UIViewController, PaymentCallback {
     }
 
     func showAlert(title: String, message: String, buttonTitle: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: buttonTitle, style: UIAlertActionStyle.default, handler: nil))
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: buttonTitle, style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
 

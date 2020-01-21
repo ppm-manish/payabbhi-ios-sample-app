@@ -9,11 +9,11 @@ For Integration guide, refer to [Mobile Checkout - iOS](https://payabbhi.com/doc
 * App Specifications
 
   - Language Used: `Swift`
-  - Xcode Version: `9.4`
+  - Xcode Version: `11.3`
 
 * Framework Specifications  
 
-  - Framework Version: `9.3`
+  - Framework Version: `1.0.3`
 
 ### Run the Sample App
 
