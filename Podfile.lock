@@ -1,0 +1,16 @@
+PODS:
+  - payabbhi-ios (1.0.5)
+
+DEPENDENCIES:
+  - payabbhi-ios
+
+SPEC REPOS:
+  trunk:
+    - payabbhi-ios
+
+SPEC CHECKSUMS:
+  payabbhi-ios: 20929a9d3a229fc5fda094f393523c29e5f919de
+
+PODFILE CHECKSUM: 6c5ce92497605eb7cd62e656ba61b2a55faadc63
+
+COCOAPODS: 1.8.4

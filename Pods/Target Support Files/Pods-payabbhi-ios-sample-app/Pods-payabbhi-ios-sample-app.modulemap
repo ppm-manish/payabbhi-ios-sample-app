@@ -1,0 +1,6 @@
+framework module Pods_payabbhi_ios_sample_app {
+  umbrella header "Pods-payabbhi-ios-sample-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

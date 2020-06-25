@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,7 @@
 		35AA95152101A840003B967D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AA95132101A840003B967D /* LaunchScreen.storyboard */; };
 		35AA95212101B90F003B967D /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35AA95202101B90F003B967D /* Montserrat-Bold.ttf */; };
 		35B80CA721077B7400B5EAB1 /* payabbhibg.png in Resources */ = {isa = PBXBuildFile; fileRef = 35B80CA621077B7400B5EAB1 /* payabbhibg.png */; };
-		91FD793623D5BE1400DF1D94 /* Payabbhi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD793423D5BE0F00DF1D94 /* Payabbhi.framework */; };
-		91FD793723D5BE1400DF1D94 /* Payabbhi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91FD793423D5BE0F00DF1D94 /* Payabbhi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2FD03BD81B3A337E61DF85B /* Pods_payabbhi_ios_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FAACB9ACE47CFBF1AE6DAE /* Pods_payabbhi_ios_sample_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				91FD793723D5BE1400DF1D94 /* Payabbhi.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24FAACB9ACE47CFBF1AE6DAE /* Pods_payabbhi_ios_sample_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payabbhi_ios_sample_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AA95072101A83F003B967D /* payabbhi-ios-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payabbhi-ios-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AA950A2101A83F003B967D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35AA950C2101A83F003B967D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +41,8 @@
 		35AA95162101A840003B967D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35AA95202101B90F003B967D /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		35B80CA621077B7400B5EAB1 /* payabbhibg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payabbhibg.png; sourceTree = "<group>"; };
-		91FD793423D5BE0F00DF1D94 /* Payabbhi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Payabbhi.framework; sourceTree = "<group>"; };
+		5BEEA4D07CC487ACCD77527A /* Pods-payabbhi-ios-sample-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payabbhi-ios-sample-app.debug.xcconfig"; path = "Target Support Files/Pods-payabbhi-ios-sample-app/Pods-payabbhi-ios-sample-app.debug.xcconfig"; sourceTree = "<group>"; };
+		D909D9CB89B767EA8AF23329 /* Pods-payabbhi-ios-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payabbhi-ios-sample-app.release.xcconfig"; path = "Target Support Files/Pods-payabbhi-ios-sample-app/Pods-payabbhi-ios-sample-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FD793623D5BE1400DF1D94 /* Payabbhi.framework in Frameworks */,
+				A2FD03BD81B3A337E61DF85B /* Pods_payabbhi_ios_sample_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +60,11 @@
 		35AA94FE2101A83F003B967D = {
 			isa = PBXGroup;
 			children = (
-				91FD793423D5BE0F00DF1D94 /* Payabbhi.framework */,
 				35AA95092101A83F003B967D /* payabbhi-ios-sample-app */,
 				35AA95082101A83F003B967D /* Products */,
 				35AA95202101B90F003B967D /* Montserrat-Bold.ttf */,
 				9174A44223BDD3B000E166C5 /* Frameworks */,
+				F91650AF1E2FA916303BFABD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +93,18 @@
 		9174A44223BDD3B000E166C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24FAACB9ACE47CFBF1AE6DAE /* Pods_payabbhi_ios_sample_app.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F91650AF1E2FA916303BFABD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BEEA4D07CC487ACCD77527A /* Pods-payabbhi-ios-sample-app.debug.xcconfig */,
+				D909D9CB89B767EA8AF23329 /* Pods-payabbhi-ios-sample-app.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35AA95192101A840003B967D /* Build configuration list for PBXNativeTarget "payabbhi-ios-sample-app" */;
 			buildPhases = (
+				267315B36B421257D0EC88E7 /* [CP] Check Pods Manifest.lock */,
 				35AA95032101A83F003B967D /* Sources */,
 				35AA95042101A83F003B967D /* Frameworks */,
 				35AA95052101A83F003B967D /* Resources */,
 				91FD791E23D5B61D00DF1D94 /* Embed Frameworks */,
+				403BD26EFD4D813F5A328492 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +177,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		267315B36B421257D0EC88E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payabbhi-ios-sample-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		403BD26EFD4D813F5A328492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payabbhi-ios-sample-app/Pods-payabbhi-ios-sample-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payabbhi-ios-sample-app/Pods-payabbhi-ios-sample-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payabbhi-ios-sample-app/Pods-payabbhi-ios-sample-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35AA95032101A83F003B967D /* Sources */ = {
@@ -314,6 +368,7 @@
 		};
 		35AA951A2101A840003B967D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEEA4D07CC487ACCD77527A /* Pods-payabbhi-ios-sample-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
@@ -339,6 +394,7 @@
 		};
 		35AA951B2101A840003B967D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D909D9CB89B767EA8AF23329 /* Pods-payabbhi-ios-sample-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
